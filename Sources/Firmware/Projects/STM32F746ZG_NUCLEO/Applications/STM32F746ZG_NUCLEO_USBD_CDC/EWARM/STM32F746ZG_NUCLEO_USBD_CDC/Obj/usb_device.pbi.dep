@@ -1,0 +1,3 @@
+usb_device.pbi: \
+  C:\CMSIS_Pack\Sources\Projects\STM32F746ZG_NUCLEO\Applications\STM32F746ZG_NUCLEO_USBD_CDC\USB_DEVICE\App\usb_device.c \
+  C:\CMSIS_Pack\Sources\Projects\STM32F746ZG_NUCLEO\Applications\STM32F746ZG_NUCLEO_USBD_CDC\USB_DEVICE\App/usb_device.h

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<package schemaVersion="1.2" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:noNamespaceSchemaLocation="PACK.xsd">
+    <vendor>STMicroelectronics</vendor>
+    <name>I-CUBE-STDIO</name>
+    <description>The software component STDIO allows you to retarget I/O functions of the standard C run-time library (printf, scanf ..) to UART. USBD CDC or USBH HID (Keyboard)
+</description>
+    <url/>
+    <license>en.DM00367782.pdf</license>
+    <releases>
+        <release date="2020-06-25" version="1.4.1">Change the Condition for the LCD</release>
+        <release date="2020-06-21" version="1.4.0">Remove the example prrojects as they take too much space</release>
+        <release date="2020-06-20" version="1.3.0">Add LCD support for STDOUT</release>
+        <release date="2020-03-12" version="1.2.0">Add Example projects</release>
+        <release date="2020-06-10" version="1.1.0">Add example projects</release>
+        <release date="2020-06-08" version="1.0.0">Initial release</release>
+    </releases>
+    <keywords>
+        <keyword>CUBE_RULES_COMPLIANT</keyword>
+        <keyword>IMPLEMENTED_WITH_STM32CUBEMX</keyword>
+    </keywords>
+    <conditions>
+        <condition id="STDOUT_USBD_FS_NOT_SELECTED">
+            <description>Prevent STDIN from selecting USBD FS when USBH_HID_FS is selected for STDOUT
+</description>
+            <deny Cbundle="STDIO" Cclass="Compiler" Cgroup="I O" Csub="STDOUT" Cvariant="USBD_CDC_FS"/>
+        </condition>
+        <condition id="STDOUT_USBD_HS_NOT_SELECTED">
+            <description>Prevent STDIN from selecting USBD HS when USBH_HID_HS is selected for STDOUT
+</description>
+            <deny Cbundle="STDIO" Cclass="Compiler" Cgroup="I O" Csub="STDOUT" Cvariant="USBD_CDC_HS"/>
+        </condition>
+        <condition id="STDIN_USBH_FS_NOT_SELECTED">
+            <description>Prevent STDOUT from selecting USBH FS when USBD_CDC_FS is selected for STDIN
+</description>
+            <deny Cbundle="STDIO" Cclass="Compiler" Cgroup="I O" Csub="STDIN" Cvariant="USBH_HID_FS"/>
+        </condition>
+        <condition id="STDIN_USBH_HS_NOT_SELECTED">
+            <description>Prevent STDOUT from selecting USBH HS when USBD_CDC_HS is selected for STDIN</description>
+            <deny Cbundle="STDIO" Cclass="Compiler" Cgroup="I O" Csub="STDIN" Cvariant="USBH_HID_HS"/>
+        </condition>
+        <condition id="STDIN_STDOUT_REQUIRED">
+            <description>Rrequire STDIN and STDOUT for the example</description>
+            <require Cbundle="STDIO" Cclass="Compiler" Cgroup="I O" Csub="STDOUT"/>
+            <require Cbundle="STDIO" Cclass="Compiler" Cgroup="I O" Csub="STDIN"/>
+        </condition>
+        <condition id="STDOUT_LCD_REQUIRED">
+            <description>Require LCD component when STDOUT LCD is selected</description>
+            <require Cbundle="LCD" Cclass="Components" Cgroup="LCDController"/>
+        </condition>
+    </conditions>
+    <components>
+        <bundle Cbundle="STDIO" Cclass="Compiler" Cversion="1.0.0">
+            <description>Retarget I/O functions of the standard C run-time library to different channels (UART/USB Device/USB Host)
+                </description>
+            <doc>Doc/I-CUBE-STDIO.pdf</doc>
+            <component Cgroup="I O" Csub="STDIN" Cvariant="USART" maxInstances="1">
+                <description>Retrieve STDIN from USART
+                </description>
+                <files>
+                    <file category="source" name="Middlewares/ST/STDIO/stdin_usart.c"/>
+                </files>
+            </component>
+            <component Cgroup="I O" Csub="STDIN" Cvariant="USBD_CDC_FS" maxInstances="1">
+                <description>Retrieve STDIN from USB Device Full Speed Virtual Com Port
+                </description>
+                <files>
+                    <file category="source" name="Middlewares/ST/STDIO/stdin_usbd_cdc_fs.c"/>
+                </files>
+            </component>
+            <component Cgroup="I O" Csub="STDIN" Cvariant="USBD_CDC_HS" maxInstances="1">
+                <description>Retrieve STDIN from USB Device High Speed Virtual Com Port
+                </description>
+                <files>
+                    <file category="source" name="Middlewares/ST/STDIO/stdin_usbd_cdc_hs.c"/>
+                </files>
+            </component>
+            <component Cgroup="I O" Csub="STDIN" Cvariant="USBH_HID_FS" condition="STDOUT_USBD_FS_NOT_SELECTED" maxInstances="1">
+                <description>Retrieve STDIN from a Keyboad using USB Host Full Speed HID
+                </description>
+                <files>
+                    <file category="source" name="Middlewares/ST/STDIO/stdin_usbh_hid_fs.c"/>
+                </files>
+            </component>
+            <component Cgroup="I O" Csub="STDIN" Cvariant="USBH_HID_HS" condition="STDOUT_USBD_HS_NOT_SELECTED" maxInstances="1">
+                <description>Retrieve STDIN from a Keyboad using USB Host High Speed HID
+                </description>
+                <files>
+                    <file category="source" name="Middlewares/ST/STDIO/stdin_usbh_hid_hs.c"/>
+                </files>
+            </component>
+            <component Cgroup="I O" Csub="STDOUT" Cvariant="USART" maxInstances="1">
+                <description>Redirect STDOUT to USART
+                </description>
+                <files>
+                    <file category="source" name="Middlewares/ST/STDIO/stdout_usart.c"/>
+                </files>
+            </component>
+            <component Cgroup="I O" Csub="STDOUT" Cvariant="USBD_CDC_FS" condition="STDIN_USBH_FS_NOT_SELECTED" maxInstances="1">
+                <description>Redirect STDOUT to USB Device Full Speed Virtual Com Port
+                </description>
+                <files>
+                    <file category="source" name="Middlewares/ST/STDIO/stdout_usbd_cdc_fs.c"/>
+                </files>
+            </component>
+            <component Cgroup="I O" Csub="STDOUT" Cvariant="USBD_CDC_HS" condition="STDIN_USBH_HS_NOT_SELECTED" maxInstances="1">
+                <description>Redirect STDOUT to USB Device High Speed Virtual Com Port
+                </description>
+                <files>
+                    <file category="source" name="Middlewares/ST/STDIO/stdout_usbd_cdc_hs.c"/>
+                </files>
+            </component>
+            <component Cgroup="I O" Csub="STDOUT" Cvariant="LCD" condition="STDOUT_LCD_REQUIRED" maxInstances="1">
+                <description>Redirect STDOUT to LCD
+                </description>
+                <files>
+                    <file category="source" name="Middlewares/ST/STDIO/stdout_lcd.c"/>
+                </files>
+            </component>
+        </bundle>
+        <bundle Cbundle="STM32Cube_Utilities" Cclass="Device" Cversion="1.1.0">
+            <description>Add examples</description>
+            <doc>Doc/I-CUBE-STDIO.pdf</doc>
+            <component Cgroup="Application" Cvariant="Example" condition="STDIN_STDOUT_REQUIRED" isDefaultVariant="true" maxInstances="1">
+                <description>An example using getchar() and printf()</description>
+                <files/>
+            </component>
+        </bundle>
+    </components>
+</package>

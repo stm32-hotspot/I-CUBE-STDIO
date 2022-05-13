@@ -1,0 +1,4 @@
+stm32f7xx_it.pbi: \
+  C:\CMSIS_Pack\Sources\Projects\STM32F746ZG_NUCLEO\Applications\STM32F746ZG_NUCLEO_USBD_CDC\Core\Src\stm32f7xx_it.c \
+  C:\CMSIS_Pack\Sources\Projects\STM32F746ZG_NUCLEO\Applications\STM32F746ZG_NUCLEO_USBD_CDC\EWARM/../Core/Inc\main.h \
+  C:\CMSIS_Pack\Sources\Projects\STM32F746ZG_NUCLEO\Applications\STM32F746ZG_NUCLEO_USBD_CDC\EWARM/../Core/Inc\stm32f7xx_it.h

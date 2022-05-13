@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<IP xmlns="http://mcd.rou.st.com/modules.php?name=mcu" xmlns:ns0="http://www.w3.org/2001/XMLSchema-instance" CodeTemplate="app_I-CUBE-STDIO_h.ftl;app_I-CUBE-STDIO_c.ftl" DBVersion="V4.0" Name="I-CUBE-STDIO" RootFolder="Packs/STMicroelectronics/I-CUBE-STDIO/1.4.1/" Version="1.4.1" ns0:schemaLocation="http://mcd.rou.st.com/modules.php?name=mcu ../../../../../../../doc/V4/Development/Specifications/db/thirdPartyDb.xsd">
+            
+    
+    <RefConfig Name="CompilerJjSTDIO">
+                        
+        
+        <Component Name="STDIOCcCompiler:IOoO:STDIN:USART:$STDIOCcCompilerJjIOoOJjSTDIN"/>
+                        
+        
+        <Component Name="STDIOCcCompiler:IOoO:STDIN:USBDIiCDCIiFS:$STDIOCcCompilerJjIOoOJjSTDIN"/>
+                        
+        
+        <Component Name="STDIOCcCompiler:IOoO:STDIN:USBDIiCDCIiHS:$STDIOCcCompilerJjIOoOJjSTDIN"/>
+                        
+        
+        <Component Name="STDIOCcCompiler:IOoO:STDIN:USBHIiHIDIiFS:$STDIOCcCompilerJjIOoOJjSTDIN"/>
+                        
+        
+        <Component Name="STDIOCcCompiler:IOoO:STDIN:USBHIiHIDIiHS:$STDIOCcCompilerJjIOoOJjSTDIN"/>
+                        
+        
+        <Component Name="STDIOCcCompiler:IOoO:STDOUT:USART:$STDIOCcCompilerJjIOoOJjSTDOUT"/>
+                        
+        
+        <Component Name="STDIOCcCompiler:IOoO:STDOUT:USBDIiCDCIiFS:$STDIOCcCompilerJjIOoOJjSTDOUT"/>
+                        
+        
+        <Component Name="STDIOCcCompiler:IOoO:STDOUT:USBDIiCDCIiHS:$STDIOCcCompilerJjIOoOJjSTDOUT"/>
+                        
+        
+        <Component Name="STDIOCcCompiler:IOoO:STDOUT:LCD:$STDIOCcCompilerJjIOoOJjSTDOUT"/>
+                        
+        
+        <ConfigFile Name="CompilerJjSTDIO_conf"/>
+                    
+    
+    </RefConfig>
+            
+    
+    <RefConfig Name="DeviceJjSTM32CubeIiUtilities">
+                        
+        
+        <Component Name="STM32CubeIiUtilitiesCcDevice:Application:Example:$STM32CubeIiUtilitiesCcDeviceJjApplication"/>
+                    
+    
+    </RefConfig>
+            
+    
+    <RefConfigFile Added="true" Name="CompilerJjSTDIO_conf" Template="default_conf.ftl">
+                        
+        
+        <File Category="header" Condition="all" Name="./STMicroelectronics.I-CUBE-STDIO_conf.h"/>
+                        
+        
+        <Argument AddressOf="false" Comment="STDIN_UART_HANDLER" GenericType="simple" Name="STDIN_UART_HANDLER" OptimizationCondition="equal"/>
+                        
+        
+        <Argument AddressOf="false" Comment="STDIN_USBD_FS_HANDLER" GenericType="simple" Name="STDIN_USBD_FS_HANDLER" OptimizationCondition="equal"/>
+                        
+        
+        <Argument AddressOf="false" Comment="STDIN_USBD_HS_HANDLER" GenericType="simple" Name="STDIN_USBD_HS_HANDLER" OptimizationCondition="equal"/>
+                        
+        
+        <Argument AddressOf="false" Comment="STDIN_USBH_FS_HANDLER" GenericType="simple" Name="STDIN_USBH_FS_HANDLER" OptimizationCondition="equal"/>
+                        
+        
+        <Argument AddressOf="false" Comment="STDIN_USBH_HS_HANDLER" GenericType="simple" Name="STDIN_USBH_HS_HANDLER" OptimizationCondition="equal"/>
+                        
+        
+        <Argument AddressOf="false" Comment="STDOUT_UART_HANDLER" GenericType="simple" Name="STDOUT_UART_HANDLER" OptimizationCondition="equal"/>
+                        
+        
+        <Argument AddressOf="false" Comment="STDOUT_USBD_FS_HANDLER" GenericType="simple" Name="STDOUT_USBD_FS_HANDLER" OptimizationCondition="equal"/>
+                        
+        
+        <Argument AddressOf="false" Comment="STDOUT_USBD_HS_HANDLER" GenericType="simple" Name="STDOUT_USBD_HS_HANDLER" OptimizationCondition="equal"/>
+                    
+    
+    </RefConfigFile>
+            
+    
+    <RefComponent Cclass="STDIOCcCompiler" Cgroup="IOoO" Cversion="1Gg0Gg0">
+                        
+        
+        <SubComponent Csub="STDIN" Cvariant="USART:USART" Cversion="1Gg0Gg0">
+                                    
+            
+            <File Category="source" Condition="" Name="Middlewares/ST/STDIO/stdin_usart.c"/>
+                                
+        
+        </SubComponent>
+                        
+        
+        <SubComponent Csub="STDIN" Cvariant="USBDIiCDCIiFS:USBDIiCDCIiFS" Cversion="1Gg0Gg0">
+                                    
+            
+            <File Category="source" Condition="" Name="Middlewares/ST/STDIO/stdin_usbd_cdc_fs.c"/>
+                                
+        
+        </SubComponent>
+                        
+        
+        <SubComponent Csub="STDIN" Cvariant="USBDIiCDCIiHS:USBDIiCDCIiHS" Cversion="1Gg0Gg0">
+                                    
+            
+            <File Category="source" Condition="" Name="Middlewares/ST/STDIO/stdin_usbd_cdc_hs.c"/>
+                                
+        
+        </SubComponent>
+                        
+        
+        <SubComponent Csub="STDIN" Cvariant="USBHIiHIDIiFS:USBHIiHIDIiFS" Cversion="1Gg0Gg0">
+                                    
+            
+            <File Category="source" Condition="" Name="Middlewares/ST/STDIO/stdin_usbh_hid_fs.c"/>
+                                
+        
+        </SubComponent>
+                        
+        
+        <SubComponent Csub="STDIN" Cvariant="USBHIiHIDIiHS:USBHIiHIDIiHS" Cversion="1Gg0Gg0">
+                                    
+            
+            <File Category="source" Condition="" Name="Middlewares/ST/STDIO/stdin_usbh_hid_hs.c"/>
+                                
+        
+        </SubComponent>
+                        
+        
+        <SubComponent Csub="STDOUT" Cvariant="USART:USART" Cversion="1Gg0Gg0">
+                                    
+            
+            <File Category="source" Condition="" Name="Middlewares/ST/STDIO/stdout_usart.c"/>
+                                
+        
+        </SubComponent>
+                        
+        
+        <SubComponent Csub="STDOUT" Cvariant="USBDIiCDCIiFS:USBDIiCDCIiFS" Cversion="1Gg0Gg0">
+                                    
+            
+            <File Category="source" Condition="" Name="Middlewares/ST/STDIO/stdout_usbd_cdc_fs.c"/>
+                                
+        
+        </SubComponent>
+                        
+        
+        <SubComponent Csub="STDOUT" Cvariant="USBDIiCDCIiHS:USBDIiCDCIiHS" Cversion="1Gg0Gg0">
+                                    
+            
+            <File Category="source" Condition="" Name="Middlewares/ST/STDIO/stdout_usbd_cdc_hs.c"/>
+                                
+        
+        </SubComponent>
+                        
+        
+        <SubComponent Csub="STDOUT" Cvariant="LCD:LCD" Cversion="1Gg0Gg0">
+                                    
+            
+            <File Category="source" Condition="" Name="Middlewares/ST/STDIO/stdout_lcd.c"/>
+                                
+        
+        </SubComponent>
+                    
+    
+    </RefComponent>
+            
+    
+    <RefComponent Cclass="STM32CubeIiUtilitiesCcDevice" Cgroup="Application" Cversion="1Gg1Gg0">
+                        
+        
+        <SubComponent Csub="" Cvariant="Example:Example" ModuleName="Example"/>
+                    
+    
+    </RefComponent>
+        
+
+</IP>

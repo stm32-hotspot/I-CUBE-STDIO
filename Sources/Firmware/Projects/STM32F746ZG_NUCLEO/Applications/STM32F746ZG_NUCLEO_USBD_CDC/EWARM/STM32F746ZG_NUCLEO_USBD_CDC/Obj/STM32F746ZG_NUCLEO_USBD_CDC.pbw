@@ -1,0 +1,1934 @@
+[
+  {
+    "ID": "c:@F@SystemClock_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemClock_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "50",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\main.c"
+    },
+    "name": "SystemClock_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@F@MX_GPIO_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MX_GPIO_Init(void)",
+    "location": {
+      "column": "13",
+      "line": "51",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\main.c"
+    },
+    "name": "MX_GPIO_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "65",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemClock_Config",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemClock_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "109",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\main.c"
+    },
+    "name": "SystemClock_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@F@MX_GPIO_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MX_GPIO_Init(void)",
+    "location": {
+      "column": "13",
+      "line": "166",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\main.c"
+    },
+    "name": "MX_GPIO_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Error_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Error_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "193",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\main.c"
+    },
+    "name": "Error_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.h@987@macro@__MAIN_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__MAIN_H",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Inc\\main.h"
+    },
+    "name": "__MAIN_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Error_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Error_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "54",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Inc\\main.h"
+    },
+    "name": "Error_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Error_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Error_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "54",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Inc\\main.h"
+    },
+    "name": "Error_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usb_device.h@960@macro@__USB_DEVICE__H__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__USB_DEVICE__H__",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usb_device.h"
+    },
+    "name": "__USB_DEVICE__H__",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MX_USB_DEVICE_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MX_USB_DEVICE_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "79",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usb_device.h"
+    },
+    "name": "MX_USB_DEVICE_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MX_USB_DEVICE_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MX_USB_DEVICE_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "79",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usb_device.h"
+    },
+    "name": "MX_USB_DEVICE_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_MspInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_MspInit(void)",
+    "location": {
+      "column": "6",
+      "line": "64",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\stm32f7xx_hal_msp.c"
+    },
+    "name": "HAL_MspInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@hpcd_USB_OTG_FS",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "hpcd_USB_OTG_FS",
+    "location": {
+      "column": "26",
+      "line": "59",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\stm32f7xx_it.c"
+    },
+    "name": "hpcd_USB_OTG_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@NMI_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void NMI_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "70",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\stm32f7xx_it.c"
+    },
+    "name": "NMI_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HardFault_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HardFault_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "83",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\stm32f7xx_it.c"
+    },
+    "name": "HardFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MemManage_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MemManage_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "98",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\stm32f7xx_it.c"
+    },
+    "name": "MemManage_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BusFault_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void BusFault_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "113",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\stm32f7xx_it.c"
+    },
+    "name": "BusFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UsageFault_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void UsageFault_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "128",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\stm32f7xx_it.c"
+    },
+    "name": "UsageFault_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SVC_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SVC_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "143",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\stm32f7xx_it.c"
+    },
+    "name": "SVC_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DebugMon_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void DebugMon_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "156",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\stm32f7xx_it.c"
+    },
+    "name": "DebugMon_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PendSV_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void PendSV_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "169",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\stm32f7xx_it.c"
+    },
+    "name": "PendSV_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SysTick_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "182",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\stm32f7xx_it.c"
+    },
+    "name": "SysTick_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@OTG_FS_IRQHandler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void OTG_FS_IRQHandler(void)",
+    "location": {
+      "column": "6",
+      "line": "203",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\stm32f7xx_it.c"
+    },
+    "name": "OTG_FS_IRQHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f7xx_it.h@937@macro@__STM32F7xx_IT_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM32F7xx_IT_H",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Inc\\stm32f7xx_it.h"
+    },
+    "name": "__STM32F7xx_IT_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@NMI_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void NMI_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "50",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Inc\\stm32f7xx_it.h"
+    },
+    "name": "NMI_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HardFault_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void HardFault_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "51",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Inc\\stm32f7xx_it.h"
+    },
+    "name": "HardFault_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MemManage_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MemManage_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "52",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Inc\\stm32f7xx_it.h"
+    },
+    "name": "MemManage_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@BusFault_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void BusFault_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "53",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Inc\\stm32f7xx_it.h"
+    },
+    "name": "BusFault_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@UsageFault_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void UsageFault_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "54",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Inc\\stm32f7xx_it.h"
+    },
+    "name": "UsageFault_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SVC_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SVC_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "55",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Inc\\stm32f7xx_it.h"
+    },
+    "name": "SVC_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@DebugMon_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void DebugMon_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "56",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Inc\\stm32f7xx_it.h"
+    },
+    "name": "DebugMon_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@PendSV_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void PendSV_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "57",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Inc\\stm32f7xx_it.h"
+    },
+    "name": "PendSV_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SysTick_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "58",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Inc\\stm32f7xx_it.h"
+    },
+    "name": "SysTick_Handler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@OTG_FS_IRQHandler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void OTG_FS_IRQHandler(void)",
+    "location": {
+      "column": "6",
+      "line": "59",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Inc\\stm32f7xx_it.h"
+    },
+    "name": "OTG_FS_IRQHandler",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@hUsbDeviceFS",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "hUsbDeviceFS",
+    "location": {
+      "column": "20",
+      "line": "45",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usb_device.c"
+    },
+    "name": "hUsbDeviceFS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MX_USB_DEVICE_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MX_USB_DEVICE_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "65",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usb_device.c"
+    },
+    "name": "MX_USB_DEVICE_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@UserRxBufferFS",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "UserRxBufferFS",
+    "location": {
+      "column": "9",
+      "line": "92",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.c"
+    },
+    "name": "UserRxBufferFS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@UserTxBufferFS",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "UserTxBufferFS",
+    "location": {
+      "column": "9",
+      "line": "95",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.c"
+    },
+    "name": "UserTxBufferFS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@hUsbDeviceFS",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "hUsbDeviceFS",
+    "location": {
+      "column": "27",
+      "line": "110",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.c"
+    },
+    "name": "hUsbDeviceFS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_cdc_if.c@F@CDC_Init_FS",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int CDC_Init_FS(void)",
+    "location": {
+      "column": "15",
+      "line": "125",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.c"
+    },
+    "name": "CDC_Init_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_cdc_if.c@F@CDC_DeInit_FS",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int CDC_DeInit_FS(void)",
+    "location": {
+      "column": "15",
+      "line": "126",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.c"
+    },
+    "name": "CDC_DeInit_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_cdc_if.c@F@CDC_Control_FS",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int CDC_Control_FS(int, int *, int)",
+    "location": {
+      "column": "15",
+      "line": "127",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.c"
+    },
+    "name": "CDC_Control_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_cdc_if.c@F@CDC_Receive_FS",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int CDC_Receive_FS(int *, int *)",
+    "location": {
+      "column": "15",
+      "line": "128",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.c"
+    },
+    "name": "CDC_Receive_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_cdc_if.c@F@CDC_TransmitCplt_FS",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int CDC_TransmitCplt_FS(int *, int *, int)",
+    "location": {
+      "column": "15",
+      "line": "129",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.c"
+    },
+    "name": "CDC_TransmitCplt_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@USBD_Interface_fops_FS",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "USBD_Interface_fops_FS",
+    "location": {
+      "column": "21",
+      "line": "139",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.c"
+    },
+    "name": "USBD_Interface_fops_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_cdc_if.c@F@CDC_Init_FS",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int CDC_Init_FS(void)",
+    "location": {
+      "column": "15",
+      "line": "153",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.c"
+    },
+    "name": "CDC_Init_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_cdc_if.c@F@CDC_DeInit_FS",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int CDC_DeInit_FS(void)",
+    "location": {
+      "column": "15",
+      "line": "167",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.c"
+    },
+    "name": "CDC_DeInit_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_cdc_if.c@F@CDC_Control_FS",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int CDC_Control_FS(int, int *, int)",
+    "location": {
+      "column": "15",
+      "line": "181",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.c"
+    },
+    "name": "CDC_Control_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_cdc_if.c@F@CDC_Receive_FS",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int CDC_Receive_FS(int *, int *)",
+    "location": {
+      "column": "15",
+      "line": "262",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.c"
+    },
+    "name": "CDC_Receive_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CDC_Transmit_FS",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int CDC_Transmit_FS(int *, int)",
+    "location": {
+      "column": "9",
+      "line": "282",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.c"
+    },
+    "name": "CDC_Transmit_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_cdc_if.c@F@CDC_TransmitCplt_FS",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int CDC_TransmitCplt_FS(int *, int *, int)",
+    "location": {
+      "column": "15",
+      "line": "308",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.c"
+    },
+    "name": "CDC_TransmitCplt_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_cdc_if.h@962@macro@__USBD_CDC_IF_H__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__USBD_CDC_IF_H__",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.h"
+    },
+    "name": "__USBD_CDC_IF_H__",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_cdc_if.h@1660@macro@APP_RX_DATA_SIZE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "APP_RX_DATA_SIZE",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.h"
+    },
+    "name": "APP_RX_DATA_SIZE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_cdc_if.h@1692@macro@APP_TX_DATA_SIZE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "APP_TX_DATA_SIZE",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.h"
+    },
+    "name": "APP_TX_DATA_SIZE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@USBD_Interface_fops_FS",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "USBD_Interface_fops_FS",
+    "location": {
+      "column": "28",
+      "line": "95",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.h"
+    },
+    "name": "USBD_Interface_fops_FS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@CDC_Transmit_FS",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int CDC_Transmit_FS(int *, int)",
+    "location": {
+      "column": "9",
+      "line": "110",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_cdc_if.h"
+    },
+    "name": "CDC_Transmit_FS",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.c@1919@macro@USBD_VID",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USBD_VID",
+    "location": {
+      "column": "9",
+      "line": "66",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_VID",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.c@1946@macro@USBD_LANGID_STRING",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USBD_LANGID_STRING",
+    "location": {
+      "column": "9",
+      "line": "67",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_LANGID_STRING",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.c@1983@macro@USBD_MANUFACTURER_STRING",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USBD_MANUFACTURER_STRING",
+    "location": {
+      "column": "9",
+      "line": "68",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_MANUFACTURER_STRING",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.c@2042@macro@USBD_PID_FS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USBD_PID_FS",
+    "location": {
+      "column": "9",
+      "line": "69",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_PID_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.c@2073@macro@USBD_PRODUCT_STRING_FS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USBD_PRODUCT_STRING_FS",
+    "location": {
+      "column": "9",
+      "line": "70",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_PRODUCT_STRING_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.c@2133@macro@USBD_CONFIGURATION_STRING_FS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USBD_CONFIGURATION_STRING_FS",
+    "location": {
+      "column": "9",
+      "line": "71",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_CONFIGURATION_STRING_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.c@2188@macro@USBD_INTERFACE_STRING_FS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USBD_INTERFACE_STRING_FS",
+    "location": {
+      "column": "9",
+      "line": "72",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_INTERFACE_STRING_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.c@2244@macro@USB_SIZ_BOS_DESC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USB_SIZ_BOS_DESC",
+    "location": {
+      "column": "9",
+      "line": "74",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USB_SIZ_BOS_DESC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.c@F@Get_SerialNum",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Get_SerialNum(void)",
+    "location": {
+      "column": "13",
+      "line": "106",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "Get_SerialNum",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.c@F@IntToUnicode",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void IntToUnicode(int, int *, int)",
+    "location": {
+      "column": "13",
+      "line": "107",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "IntToUnicode",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_FS_DeviceDescriptor",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int * USBD_FS_DeviceDescriptor(int, int *)",
+    "location": {
+      "column": "11",
+      "line": "118",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_FS_DeviceDescriptor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_FS_LangIDStrDescriptor",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int * USBD_FS_LangIDStrDescriptor(int, int *)",
+    "location": {
+      "column": "11",
+      "line": "119",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_FS_LangIDStrDescriptor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_FS_ManufacturerStrDescriptor",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int * USBD_FS_ManufacturerStrDescriptor(int, int *)",
+    "location": {
+      "column": "11",
+      "line": "120",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_FS_ManufacturerStrDescriptor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_FS_ProductStrDescriptor",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int * USBD_FS_ProductStrDescriptor(int, int *)",
+    "location": {
+      "column": "11",
+      "line": "121",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_FS_ProductStrDescriptor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_FS_SerialStrDescriptor",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int * USBD_FS_SerialStrDescriptor(int, int *)",
+    "location": {
+      "column": "11",
+      "line": "122",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_FS_SerialStrDescriptor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_FS_ConfigStrDescriptor",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int * USBD_FS_ConfigStrDescriptor(int, int *)",
+    "location": {
+      "column": "11",
+      "line": "123",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_FS_ConfigStrDescriptor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_FS_InterfaceStrDescriptor",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int * USBD_FS_InterfaceStrDescriptor(int, int *)",
+    "location": {
+      "column": "11",
+      "line": "124",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_FS_InterfaceStrDescriptor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@FS_Desc",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "FS_Desc",
+    "location": {
+      "column": "25",
+      "line": "138",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "FS_Desc",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@uint8_t",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "uint8_t",
+    "location": {
+      "column": "15",
+      "line": "156",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "uint8_t",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@uint8_t",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "uint8_t",
+    "location": {
+      "column": "15",
+      "line": "222",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "uint8_t",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@uint8_t",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "uint8_t",
+    "location": {
+      "column": "15",
+      "line": "234",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "uint8_t",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@uint8_t",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "uint8_t",
+    "location": {
+      "column": "15",
+      "line": "239",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "uint8_t",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_FS_DeviceDescriptor",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int * USBD_FS_DeviceDescriptor(int, int *)",
+    "location": {
+      "column": "11",
+      "line": "259",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_FS_DeviceDescriptor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_FS_LangIDStrDescriptor",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int * USBD_FS_LangIDStrDescriptor(int, int *)",
+    "location": {
+      "column": "11",
+      "line": "272",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_FS_LangIDStrDescriptor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_FS_ProductStrDescriptor",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int * USBD_FS_ProductStrDescriptor(int, int *)",
+    "location": {
+      "column": "11",
+      "line": "285",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_FS_ProductStrDescriptor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_FS_ManufacturerStrDescriptor",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int * USBD_FS_ManufacturerStrDescriptor(int, int *)",
+    "location": {
+      "column": "11",
+      "line": "304",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_FS_ManufacturerStrDescriptor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_FS_SerialStrDescriptor",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int * USBD_FS_SerialStrDescriptor(int, int *)",
+    "location": {
+      "column": "11",
+      "line": "317",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_FS_SerialStrDescriptor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_FS_ConfigStrDescriptor",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int * USBD_FS_ConfigStrDescriptor(int, int *)",
+    "location": {
+      "column": "11",
+      "line": "337",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_FS_ConfigStrDescriptor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_FS_InterfaceStrDescriptor",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int * USBD_FS_InterfaceStrDescriptor(int, int *)",
+    "location": {
+      "column": "11",
+      "line": "356",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "USBD_FS_InterfaceStrDescriptor",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.c@F@Get_SerialNum",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Get_SerialNum(void)",
+    "location": {
+      "column": "13",
+      "line": "389",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "Get_SerialNum",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.c@F@IntToUnicode",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void IntToUnicode(int, int *, int)",
+    "location": {
+      "column": "13",
+      "line": "413",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.c"
+    },
+    "name": "IntToUnicode",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.h@955@macro@__USBD_DESC__C__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__USBD_DESC__C__",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.h"
+    },
+    "name": "__USBD_DESC__C__",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.h@1473@macro@DEVICE_ID1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DEVICE_ID1",
+    "location": {
+      "column": "17",
+      "line": "49",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.h"
+    },
+    "name": "DEVICE_ID1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.h@1521@macro@DEVICE_ID2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DEVICE_ID2",
+    "location": {
+      "column": "17",
+      "line": "50",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.h"
+    },
+    "name": "DEVICE_ID2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.h@1575@macro@DEVICE_ID3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DEVICE_ID3",
+    "location": {
+      "column": "17",
+      "line": "51",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.h"
+    },
+    "name": "DEVICE_ID3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_desc.h@1624@macro@USB_SIZ_STRING_SERIAL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "USB_SIZ_STRING_SERIAL",
+    "location": {
+      "column": "10",
+      "line": "53",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.h"
+    },
+    "name": "USB_SIZ_STRING_SERIAL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@FS_Desc",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "FS_Desc",
+    "location": {
+      "column": "32",
+      "line": "108",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\App\\usbd_desc.h"
+    },
+    "name": "FS_Desc",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@hpcd_USB_OTG_FS",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "hpcd_USB_OTG_FS",
+    "location": {
+      "column": "19",
+      "line": "41",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "hpcd_USB_OTG_FS",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Error_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void Error_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "42",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "Error_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemClock_Config",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemClock_Config(void)",
+    "location": {
+      "column": "6",
+      "line": "45",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "SystemClock_Config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_Get_USB_Status",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int USBD_Get_USB_Status(int)",
+    "location": {
+      "column": "20",
+      "line": "53",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_Get_USB_Status",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_conf.c@F@SystemClockConfig_Resume",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SystemClockConfig_Resume(void)",
+    "location": {
+      "column": "13",
+      "line": "60",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "SystemClockConfig_Resume",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_PCD_MspInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_PCD_MspInit(int *)",
+    "location": {
+      "column": "6",
+      "line": "68",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "HAL_PCD_MspInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_PCD_MspDeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_PCD_MspDeInit(int *)",
+    "location": {
+      "column": "6",
+      "line": "101",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "HAL_PCD_MspDeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_PCD_SetupStageCallback",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_PCD_SetupStageCallback(int *)",
+    "location": {
+      "column": "6",
+      "line": "134",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "HAL_PCD_SetupStageCallback",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_PCD_DataOutStageCallback",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_PCD_DataOutStageCallback(int *, int)",
+    "location": {
+      "column": "6",
+      "line": "149",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "HAL_PCD_DataOutStageCallback",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_PCD_DataInStageCallback",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_PCD_DataInStageCallback(int *, int)",
+    "location": {
+      "column": "6",
+      "line": "164",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "HAL_PCD_DataInStageCallback",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_PCD_SOFCallback",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_PCD_SOFCallback(int *)",
+    "location": {
+      "column": "6",
+      "line": "178",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "HAL_PCD_SOFCallback",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_PCD_ResetCallback",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_PCD_ResetCallback(int *)",
+    "location": {
+      "column": "6",
+      "line": "192",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "HAL_PCD_ResetCallback",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_PCD_SuspendCallback",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_PCD_SuspendCallback(int *)",
+    "location": {
+      "column": "6",
+      "line": "225",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "HAL_PCD_SuspendCallback",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_PCD_ResumeCallback",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_PCD_ResumeCallback(int *)",
+    "location": {
+      "column": "6",
+      "line": "250",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "HAL_PCD_ResumeCallback",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_PCD_ISOOUTIncompleteCallback",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_PCD_ISOOUTIncompleteCallback(int *, int)",
+    "location": {
+      "column": "6",
+      "line": "268",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "HAL_PCD_ISOOUTIncompleteCallback",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_PCD_ISOINIncompleteCallback",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_PCD_ISOINIncompleteCallback(int *, int)",
+    "location": {
+      "column": "6",
+      "line": "283",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "HAL_PCD_ISOINIncompleteCallback",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_PCD_ConnectCallback",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_PCD_ConnectCallback(int *)",
+    "location": {
+      "column": "6",
+      "line": "297",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "HAL_PCD_ConnectCallback",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_PCD_DisconnectCallback",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_PCD_DisconnectCallback(int *)",
+    "location": {
+      "column": "6",
+      "line": "311",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "HAL_PCD_DisconnectCallback",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_LL_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int USBD_LL_Init(int *)",
+    "location": {
+      "column": "20",
+      "line": "326",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_LL_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_LL_DeInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int USBD_LL_DeInit(int *)",
+    "location": {
+      "column": "20",
+      "line": "376",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_LL_DeInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_LL_Start",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int USBD_LL_Start(int *)",
+    "location": {
+      "column": "20",
+      "line": "393",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_LL_Start",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_LL_Stop",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int USBD_LL_Stop(int *)",
+    "location": {
+      "column": "20",
+      "line": "410",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_LL_Stop",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_LL_OpenEP",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int USBD_LL_OpenEP(int *, int, int, int)",
+    "location": {
+      "column": "20",
+      "line": "430",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_LL_OpenEP",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_LL_CloseEP",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int USBD_LL_CloseEP(int *, int)",
+    "location": {
+      "column": "20",
+      "line": "448",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_LL_CloseEP",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_LL_FlushEP",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int USBD_LL_FlushEP(int *, int)",
+    "location": {
+      "column": "20",
+      "line": "466",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_LL_FlushEP",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_LL_StallEP",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int USBD_LL_StallEP(int *, int)",
+    "location": {
+      "column": "20",
+      "line": "484",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_LL_StallEP",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_LL_ClearStallEP",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int USBD_LL_ClearStallEP(int *, int)",
+    "location": {
+      "column": "20",
+      "line": "502",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_LL_ClearStallEP",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_LL_IsStallEP",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int USBD_LL_IsStallEP(int *, int)",
+    "location": {
+      "column": "9",
+      "line": "520",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_LL_IsStallEP",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_LL_SetUSBAddress",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int USBD_LL_SetUSBAddress(int *, int)",
+    "location": {
+      "column": "20",
+      "line": "540",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_LL_SetUSBAddress",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_LL_Transmit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int USBD_LL_Transmit(int *, int, int *, int)",
+    "location": {
+      "column": "20",
+      "line": "560",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_LL_Transmit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_LL_PrepareReceive",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int USBD_LL_PrepareReceive(int *, int, int *, int)",
+    "location": {
+      "column": "20",
+      "line": "580",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_LL_PrepareReceive",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_LL_GetRxDataSize",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int USBD_LL_GetRxDataSize(int *, int)",
+    "location": {
+      "column": "10",
+      "line": "598",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_LL_GetRxDataSize",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_PCDEx_LPM_Callback",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_PCDEx_LPM_Callback(int *, int)",
+    "location": {
+      "column": "6",
+      "line": "609",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "HAL_PCDEx_LPM_Callback",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_LL_Delay",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void USBD_LL_Delay(int)",
+    "location": {
+      "column": "6",
+      "line": "644",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_LL_Delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:usbd_conf.c@F@SystemClockConfig_Resume",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemClockConfig_Resume(void)",
+    "location": {
+      "column": "13",
+      "line": "655",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "SystemClockConfig_Resume",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@USBD_Get_USB_Status",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int USBD_Get_USB_Status(int)",
+    "location": {
+      "column": "20",
+      "line": "665",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\USB_DEVICE\\Target\\usbd_conf.c"
+    },
+    "name": "USBD_Get_USB_Status",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_stm32f7xx.c@1902@macro@HSE_VALUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSE_VALUE",
+    "location": {
+      "column": "11",
+      "line": "51",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\system_stm32f7xx.c"
+    },
+    "name": "HSE_VALUE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_stm32f7xx.c@2055@macro@HSI_VALUE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "HSI_VALUE",
+    "location": {
+      "column": "11",
+      "line": "55",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\system_stm32f7xx.c"
+    },
+    "name": "HSI_VALUE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:system_stm32f7xx.c@2570@macro@VECT_TAB_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "VECT_TAB_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "79",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\system_stm32f7xx.c"
+    },
+    "name": "VECT_TAB_OFFSET",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@SystemCoreClock",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "SystemCoreClock",
+    "location": {
+      "column": "12",
+      "line": "107",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\system_stm32f7xx.c"
+    },
+    "name": "SystemCoreClock",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@AHBPrescTable",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "AHBPrescTable",
+    "location": {
+      "column": "17",
+      "line": "108",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\system_stm32f7xx.c"
+    },
+    "name": "AHBPrescTable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@APBPrescTable",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "APBPrescTable",
+    "location": {
+      "column": "17",
+      "line": "109",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\system_stm32f7xx.c"
+    },
+    "name": "APBPrescTable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemInit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemInit(void)",
+    "location": {
+      "column": "6",
+      "line": "134",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\system_stm32f7xx.c"
+    },
+    "name": "SystemInit",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SystemCoreClockUpdate",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SystemCoreClockUpdate(void)",
+    "location": {
+      "column": "6",
+      "line": "185",
+      "path": "C:\\CMSIS_Pack\\Sources\\Projects\\STM32F746ZG_NUCLEO\\Applications\\STM32F746ZG_NUCLEO_USBD_CDC\\Core\\Src\\system_stm32f7xx.c"
+    },
+    "name": "SystemCoreClockUpdate",
+    "origin": "project_file",
+    "scope": null
+  }
+]

@@ -1,0 +1,4 @@
+main.pbi: \
+  C:\CMSIS_Pack\Sources\Projects\STM32F746ZG_NUCLEO\Applications\STM32F746ZG_NUCLEO_USBD_CDC\Core\Src\main.c \
+  C:\CMSIS_Pack\Sources\Projects\STM32F746ZG_NUCLEO\Applications\STM32F746ZG_NUCLEO_USBD_CDC\EWARM/../Core/Inc\main.h \
+  C:\CMSIS_Pack\Sources\Projects\STM32F746ZG_NUCLEO\Applications\STM32F746ZG_NUCLEO_USBD_CDC\EWARM/../USB_DEVICE/App\usb_device.h

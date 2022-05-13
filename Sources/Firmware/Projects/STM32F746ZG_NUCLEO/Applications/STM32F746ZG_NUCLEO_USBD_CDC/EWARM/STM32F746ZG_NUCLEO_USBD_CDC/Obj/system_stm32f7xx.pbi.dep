@@ -1,0 +1,2 @@
+system_stm32f7xx.pbi: \
+  C:\CMSIS_Pack\Sources\Projects\STM32F746ZG_NUCLEO\Applications\STM32F746ZG_NUCLEO_USBD_CDC\Core\Src\system_stm32f7xx.c

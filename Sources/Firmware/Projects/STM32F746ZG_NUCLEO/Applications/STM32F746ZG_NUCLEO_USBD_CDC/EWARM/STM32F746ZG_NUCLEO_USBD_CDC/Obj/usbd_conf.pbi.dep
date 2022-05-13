@@ -1,0 +1,2 @@
+usbd_conf.pbi: \
+  C:\CMSIS_Pack\Sources\Projects\STM32F746ZG_NUCLEO\Applications\STM32F746ZG_NUCLEO_USBD_CDC\USB_DEVICE\Target\usbd_conf.c
